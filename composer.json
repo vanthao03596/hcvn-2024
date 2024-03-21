@@ -1,0 +1,24 @@
+{
+    "name": "thappv/hcvn",
+    "description": "hành chính việt nam php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pham Thao",
+            "email": "phamthao03596@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "phpoffice/phpspreadsheet": "^2.0",
+        "spatie/simple-excel": "^3.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
